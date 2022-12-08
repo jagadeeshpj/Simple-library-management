@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEVREV's Library Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header class="header">
+		<h1 class="logo"><a href="#">Library Management</a></h1>
+      <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="https://jagadeeshpj.netlify.app/" target="_blank">About(Me)</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+	</header> 
+
+  <body>
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search Title name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Basic')">
+          Basic
+        </button>
+        <button class="button-value" onclick="filterProduct('IT')">
+          IT
+        </button>
+        <button class="button-value" onclick="filterProduct('CSE')">
+          CSE
+        </button>
+        <button class="button-value" onclick="filterProduct('ISE')">
+          ISE
+        </button>
+        <button class="button-value" onclick="filterProduct('Novel')">
+          Novel
+        </button>
+        <button class="button-value" onclick="filterProduct('Fantasy')">
+          Fantasy
+        </button>
+      </div>
+      <div id="Books"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="https://github.com/jagadeeshpj" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    </ul>
+    </div>
+    
+    <div class="row">
+    DEVREV Library Management || Copyright © 2022  - All rights reserved || Designed By: P JAGADEESH 
+    </div>
+    </div>
+    </footer>
+    
+</html>
+
+<!-- This site developed by 
+P JAGADEESH
+jagadeeshpj2001@gmail.com
+-->

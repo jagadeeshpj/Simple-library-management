@@ -6,7 +6,7 @@ DevRev's Simple library management page using HTML, CSS, JavaScript
 
 
 # Problem Statement
- <br />  <br />
+ <br /> 
 Build a simple library management page where <br>
   ● Users should be able to see the list of books <br>
   ○ Instead of loading all the results on the page, perform paging on the list of books – either implement 10 results per page or load on scroll will be a bonus
